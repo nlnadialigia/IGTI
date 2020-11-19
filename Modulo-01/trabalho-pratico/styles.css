@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  color: #ffdada;
+  background: #31326f;
+}
+
+h1{
+  text-align: center;
+  margin: 20px auto;
+}
+
+label, input{
+  margin: 5px 0;
+}
+
+input{
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 218, 218, 0.2);
+}
+
