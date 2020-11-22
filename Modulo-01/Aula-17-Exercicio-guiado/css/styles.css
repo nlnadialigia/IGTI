@@ -7,7 +7,6 @@ img {
   height: 50px;
   margin-right: 10px;
   margin-left: 10px;
-
   border-radius: 50%;
 }
 
@@ -17,15 +16,20 @@ img {
 
 .country {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .add {
-  border-radius: 50%;
+  border-radius: 2px;
   background-color: darkgreen;
+  text-align: center;
   color: white;
   font-weight: bold;
+  padding: 5px 10px;
+  display: flex;
+  place-content: center;
+  cursor: pointer;
 }
 
 .list {
@@ -33,4 +37,14 @@ img {
   border: 1px solid gray;
   border-radius: 10px;
   margin-right: 10px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }

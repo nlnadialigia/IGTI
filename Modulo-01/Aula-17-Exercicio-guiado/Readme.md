@@ -36,7 +36,7 @@ Construção de código JavaScript para listar países e marcá-los como favorit
 
 </ul>
 
-1. Busque os dados em https://restcountries.eu/rest/v2/allcom fetch.
+1. Busque os dados em https://restcountries.eu/rest/v2/all com fetch.
 
 2. Transforme os dados de forma que somente os seguintes itens sejam disponíveis:
     - Nome.
