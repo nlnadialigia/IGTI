@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  width: 700px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background: #f1f6f9;
+  color: #14274e;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid rgba(20, 79, 78, 0.2);
+  box-shadow: 2px 2px 2px #14274e;
+}
+
+header{
+  font-size: 26px;
+  margin: 20px auto;
+}
+
+main {
+  width: 100%;
+  margin: 20px 0;
+}
+
+#search {
+  margin: 20px auto;
+}
+
+input {
+  width: 87%;
+  border: none;
+  border-bottom: 1px solid rgba(20, 79, 78, 0.4);
+  background: transparent;
+  font-size: 16px;
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  background: rgba(20, 79, 78, 1);
+  color: #f1f6f9;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background: rgba(20, 79, 78, 0.8);
+}
+
+#results {
+  display: flex;
+  gap: 20px;
+}
+
+.lists {
+  width: 330px;
+  border: 1px solid rgba(20, 79, 78, 0.4);
+}
+
+.list {
+  margin: 10px;
+}
+
+h3{
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+#data{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.item {
+  display: flex;
+}
+
+.item span {
+  font-weight: 700;
+}
