@@ -1,5 +1,8 @@
 body {
+  width: 840px;
   padding: 10px;
+  margin: 0 auto;
+  background: #e8e8e8;
 }
 
 img {
@@ -11,9 +14,16 @@ img {
   border-radius: 50%;
 }
 
+h1 {
+  color: #9d0191;
+  text-align: center;
+  font-weight: bold;
+}
+
 h4 {
   color:#9d0191;
   font-weight: bold;
+  text-align: center;
 }
 
 .country-container {
@@ -34,6 +44,7 @@ h4 {
 }
 
 .list {
+  width: 400px;;
   padding: 5px;
   border: 1px solid grey;
   border-radius: 10px;
