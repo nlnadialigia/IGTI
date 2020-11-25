@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
+  <script defer src="./js/script.js"></script>
 </head>
 <body>
   <header>
@@ -15,35 +16,39 @@
   <main>
     <div id="search">
       <input type="text" name="search" id="input-search" placeholder="Busca">
-      <button type="submit">BUSCAR</button>
+      <button>BUSCAR</button>
     </div>
     <div id="results">
       <div class="lists">
         <div class="list">
-          <h3>Nenhum usuário filtrado</h3>
+          <h3 id="results-title">Nenhum usuário filtrado</h3>
+          <h3 id="qtde"></h3>
           <div id="users"></div>
         </div>
       </div>
       <div class="lists">
         <div class="list">
-          <h3>Estatísticas</h3>
-          <div id="data">
-            <div class="item">
-              <p>Sexo masculino: </p>
-              <span></span>
-            </div>
-            <div class="item">
-              <p>Sexo feminino: </p>
-              <span>10</span>
-            </div>
-            <div class="item">
-              <p>Soma das idades: </p>
-              <span></span>
-            </div>
-            <div class="item">
-              <p>Média das idades: </p>
-              <span></span>
-            </div>
+          <h3 id="statistic-title">Nada a ser exibido</h3>
+          <div id="statistic">
+            <h3>Estatísticas</h3>
+            <div id="data">
+              <div class="item">
+                <p>Sexo masculino: </p>
+                <span></span>
+              </div>
+              <div class="item">
+                <p>Sexo feminino: </p>
+                <span>10</span>
+              </div>
+              <div class="item">
+                <p>Soma das idades: </p>
+                <span></span>
+              </div>
+              <div class="item">
+                <p>Média das idades: </p>
+                <span></span>
+              </div>
+          </div>
           </div>
         </div>
       </div>
