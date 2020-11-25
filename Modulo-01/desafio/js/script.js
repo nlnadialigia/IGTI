@@ -602,6 +602,10 @@ const dataUsers = [
 ];
 let usersFiltered = [];
 const inputSearch = document.getElementById('input-search');
+const titleResults = document.getElementById('results-title');
+const titleStatistic = document.getElementById('statistic-title');
+const statistics = document.getElementById('statistic');
+const noResults = document.getElementById('no-results');
 
 // console.log(dataUsers);
 
@@ -657,13 +661,17 @@ function submitEvents() {
 }
 
 function searchResults() {
-  const total = usersFiltered.length;
+  const total = inputSearch.value;
+  const number = usersFiltered.length;
   console.log(`Usuários filtrados: ${total}`);
+  console.log(`Input Value - searchResults: ${total}`);
 
-  if (total === 0) {
-    return;
+  if (total === '') {
+    console.log('certo');
+    clearResults();
   }
-  changeTitle(total);
+
+  changeTitle(number);
   userListResults();
   clearSearch();
 }
@@ -675,17 +683,19 @@ function inputEnter(event) {
 }
 
 function changeTitle(number) {
-  const titleResults = document.getElementById('results-title');
-  const titleStatistic = document.getElementById('statistic-title');
-  const statistics = document.getElementById('statistic');
-
+  noResults.style.display = 'none';
   titleResults.innerHTML = `${number} usuário(s) encontrados`;
-  titleStatistic.innerHTML = '';
+  titleStatistic.style.display = 'none';
   statistics.style.display = 'block';
 }
 
 function clearSearch() {
   inputSearch.value = '';
+  inputSearch.blur();
+}
+
+function clearResults() {
+  console.log('clearResults');
 }
 
 function statisticResults() {
