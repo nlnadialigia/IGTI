@@ -15,6 +15,7 @@ ___
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#book-modulos">Módulos</a>&nbsp;|&nbsp;
+  <a href="#rocket-tecnologias-frameworks-dependencias">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -32,7 +33,12 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 
 - [Modulo 01 - Fundamentos de Desenvolvimento FullStack](Modulo-01)
 
+<br>
 
+## :rocket: Tecnologias, Frameworks e Dependências
+
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
 <br>
 
