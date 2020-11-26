@@ -38,7 +38,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 
 # :book: Aulas
 
-- [1ª Aula Interativa](./Aulas/fake-back-end)
+- [1ª Aula Interativa](./Aulas/fake-backend)
 
 <br>
 
