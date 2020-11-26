@@ -1,11 +1,11 @@
 {
-  "name": "desafio-modulo-01",
+  "name": "fake-backend",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Nadia Ligia",
   "license": "MIT",
   "scripts": {
-    "start": "json-server --watch data.json --port3020"
+    "start": "json-server --watch ./back-end/countries.json --port3001"
   },
   "devDependencies": {
     "eslint": "6.8.0",

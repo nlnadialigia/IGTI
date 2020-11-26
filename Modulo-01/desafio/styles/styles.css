@@ -6,7 +6,7 @@
 }
 
 body{
-  width: 700px;
+  width: 800px;
   font-family: 'Merriweather Sans', sans-serif;
   background: #f1f6f9;
   color: #14274e;
@@ -27,14 +27,6 @@ header{
 main {
   width: 100%;
   margin: 20px 0;
-}
-
-#statistic {
-  display: none;
-}
-
-#search {
-  margin: 20px auto;
 }
 
 input {
@@ -60,13 +52,30 @@ button:hover {
   background: rgba(20, 79, 78, 0.8);
 }
 
+h3{
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+img{
+  border-radius: 50%;
+}
+
+#statistic {
+  display: none;
+}
+
+#search {
+  margin: 20px auto;
+}
+
 #results {
   display: flex;
   gap: 20px;
 }
 
 .lists {
-  width: 330px;
+  width: 380px;
   border: 1px solid rgba(20, 79, 78, 0.4);
 }
 
@@ -74,9 +83,11 @@ button:hover {
   margin: 10px;
 }
 
-h3{
-  font-size: 24px;
-  margin: 10px auto;
+.user{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+  place-items: center;
 }
 
 #data{
@@ -86,8 +97,10 @@ h3{
 
 .item {
   display: flex;
+  font-size: 16px;
 }
 
 .item span {
   font-weight: 700;
+  margin-bottom: 5px;
 }
