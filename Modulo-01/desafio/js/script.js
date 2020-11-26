@@ -25,10 +25,6 @@ async function start() {
   filterUsers();
 }
 
-function render() {
-  submitEvents();
-}
-
 function filterUsers() {
   inputSearch.addEventListener('keyup', () => {
     const inputValue = inputSearch.value;
@@ -41,7 +37,7 @@ function filterUsers() {
     }
   });
 
-  render();
+  submitEvents();
 }
 
 function submitEvents() {
@@ -94,8 +90,6 @@ function statisticResults() {
   maleGender();
   femaleGender();
   totalList();
-
-  // console.log(usersFiltered);
 }
 
 function maleGender() {
@@ -150,7 +144,5 @@ function userListResults() {
 
   usersId.innerHTML = usersHtml;
 }
-
-// clearSearch => tem que limpar o input e quando nova digitação ou enter limpar os resultados
 
 start();

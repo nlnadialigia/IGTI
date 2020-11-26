@@ -17,8 +17,9 @@ ___
 <h3 align="center">
   <a href="#information_source-objetivos">Objetivos</a>&nbsp;|&nbsp;
   <a href="#book-especificações">Especificações</a>&nbsp;|&nbsp;
-  <a href="#rocket-resultado>Resultado</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#rocket-resultado">Resultado</a>&nbsp;|&nbsp;
+  <a href="#interrobang-como-rodar-o-projeto">Rodar o projeto</a>&nbsp;|&nbsp;
+  <a href="#license">License</a>&nbsp;|&nbsp;
 </h3>
 
 ___
@@ -90,6 +91,36 @@ Criar uma aplicação para filtrar usuários e mostrar estatísticas a partir do
 
 <br>
 
-## Licença 
+## :interrobang: Como rodar o projeto
+
+<br>
+
+### Instalar as dependências:
+
+<br>
+
+No terminal:
+```bash
+yarn
+```
+<br>
+
+### Rodar o back-end
+<br>
+
+No terminal:
+```bash
+yarn start
+```
+<br>
+
+### Rodar o front-end
+
+- Abrir diretamente o arquivo `index.html` no browser ou rodar o [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
+
+<br>
+
+
+## License 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../../LICENSE) para mais detalhes.
