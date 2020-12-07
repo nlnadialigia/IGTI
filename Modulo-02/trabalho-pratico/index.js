@@ -12,23 +12,24 @@ async function init() {
 
   await createStatesObject();
 
-  console.log('Estados com mais cidades:');
-  totalCitiesInStates('max');
+  console.log(`\nEstados com mais cidades:`);
+  totalCitiesInStates(`max`);
 
-  console.log('Estados com menos cidades:');
+  console.log(`\nEstados com menos cidades:`);
   totalCitiesInStates();
 
-  console.log('Cidade com os menores nomes por estado:');
+  console.log(`\nCidade com os menores nomes por estado:`);
   cityLengthByState();
-  console.log('Cidade com os maiores nomes por estado:');
-  cityLengthByState('min');
+  
+  console.log(`\nCidade com os maiores nomes por estado:`);
+  cityLengthByState(`min`);
 
   console.log(
-    'Cidade com o maior nome: ',
+    `\nCidade com o maior nome:`,
     largeNameCity(STATES_FILE, CITIES_FILE)
   );
   console.log(
-    'Cidade com o menor nome: ',
+    `\nCidade com o menor nome:`,
     tinyNameCity(STATES_FILE, CITIES_FILE)
   );
 }
@@ -58,10 +59,10 @@ function tinyNameCity(states, cities) {
 }
 
 async function createStatesObject() {
-  const statesFiles = await fs.readdir(path.resolve('data', 'states'));
+  const statesFiles = await fs.readdir(path.resolve(`data`, `states`));
   for (const state of statesFiles) {
     const cities = await JSON.parse(
-      await fs.readFile(path.resolve('data', 'states', `${state}`))
+      await fs.readFile(path.resolve(`data`, `states`, `${state}`))
     ).map((city) => ({
       ...city,
       nameLength: city.Nome.length,
@@ -70,7 +71,7 @@ async function createStatesObject() {
     const sortedCities = cities.sort(orderCities);
 
     STATES.push({
-      uf: state.split('.')[0],
+      uf: state.split(`.`)[0],
       cities: sortedCities,
       totalCities: cities.length,
     });
@@ -87,7 +88,7 @@ function orderCities(a, b) {
 function totalCitiesInStates(type) {
   let cities = null;
   STATES.sort((a, b) => a.totalCities - b.totalCities);
-  if (type === 'max') {
+  if (type === `max`) {
     cities = STATES.slice(-5);
   } else {
     cities = STATES.slice(0, 5);
@@ -102,7 +103,7 @@ function cityLengthByState(type) {
   for (const state of STATES) {
     const city = state.cities;
 
-    if (type === 'min') {
+    if (type === `min`) {
       city.reverse();
     }
 
@@ -112,7 +113,7 @@ function cityLengthByState(type) {
 
 async function citiesByState(state) {
   const cities = JSON.parse(
-    await fs.readFile(path.resolve('data', 'states', `${state}.json`))
+    await fs.readFile(path.resolve(`data`, `states`, `${state}.json`))
   );
 
   return cities.length;
@@ -122,7 +123,7 @@ async function createStatesFiles(states, cities) {
   for (const state of states) {
     const stateCities = cities.filter((city) => city.Estado === state.ID);
     await fs.writeFile(
-      path.resolve('data', 'states', `${state.Sigla}.json`),
+      path.resolve(`data`, `states`, `${state.Sigla}.json`),
       JSON.stringify(stateCities)
     );
   }
@@ -130,7 +131,7 @@ async function createStatesFiles(states, cities) {
 
 async function readFileStates() {
   try {
-    return JSON.parse(await fs.readFile('data/states.json'));
+    return JSON.parse(await fs.readFile(`data/states.json`));
   } catch (err) {
     console.log(err);
   }
@@ -138,7 +139,7 @@ async function readFileStates() {
 
 async function readFileCities() {
   try {
-    return JSON.parse(await fs.readFile('data/cities.json'));
+    return JSON.parse(await fs.readFile(`data/cities.json`));
   } catch (err) {
     console.log(err);
   }

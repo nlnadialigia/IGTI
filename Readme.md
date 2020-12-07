@@ -33,6 +33,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 # :book: Módulos
 
 - [Modulo 01 - Fundamentos de Desenvolvimento FullStack](./Modulo-01)
+- [Modulo 02 - Desenvolvimento de APIs](./Modulo-02)
 
 <br>
 
