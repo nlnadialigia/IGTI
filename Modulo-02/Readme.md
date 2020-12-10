@@ -30,6 +30,7 @@ Módulo referente ao Desenvolvimento de API.
 ## :book: Atividades
 
 - [Trabalho Prático](./trabalho-pratico)
+- [ExpressJS](./express)
 
 
 <br>
