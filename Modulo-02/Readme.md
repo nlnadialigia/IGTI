@@ -31,6 +31,8 @@ Módulo referente ao Desenvolvimento de API.
 
 - [Trabalho Prático](./trabalho-pratico)
 - [ExpressJS](./express)
+- [Rotas](./routes)
+- [Middleware](./middleware)
 
 
 <br>

@@ -39,7 +39,8 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 
 # :book: Aulas
 
-- [1ª Aula Interativa](./Aulas/fake-backend)
+- [1ª Aula Interativa - Módulo 01](./Aulas/fake-backend)
+- [1ª Aula Interativa - Módulo 02](./Aulas/brasileirao)
 
 <br>
 
@@ -49,6 +50,8 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Prettier](https://prettier.io)
 - [Yarn](https://yarnpkg.com)
 - [Json-server](https://www.npmjs.com/package/json-server)
+- [NodeJS](https://nodejs.org/en/)
+- [ExpressJS](https://expressjs.com/pt-br/)
 
 <br>
 
