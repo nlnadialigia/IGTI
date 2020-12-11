@@ -1,0 +1,14 @@
+{
+  "name": "brasileirao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nadia Ligia",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
