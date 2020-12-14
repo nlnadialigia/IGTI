@@ -49,6 +49,8 @@ Isso irá permitir que você possa configurar dinamicamente até qual ponto voc�
 
 O nível dos logs respeita a ordem crescente, por exemplo, ao definir a aplicação com um nível de log 4, ela irá gravar nos logs os níveis 4, 3, 2, 1, 0, excluindo então os acima dele, no caso o 5 e 6.
 
+Outra funcionalidade interessante do Winston é a possibilidade de configurar formatos de log, adicionando informações customizadas no formato desejado, como por exemplo a data e horário do registro.
+
 
 
 <br>
@@ -90,6 +92,17 @@ ou
 
 ```
 yarn add nodemon
+```
+
+:arrow_right: *instalar o Winston*
+```
+npm install winston
+```
+
+ou
+
+```
+yarn add winston
 ```
 
 ### :pushpin: Rodar o servidor
