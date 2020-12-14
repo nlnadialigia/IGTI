@@ -1,0 +1,17 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

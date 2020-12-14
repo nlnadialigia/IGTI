@@ -1,4 +1,4 @@
-<h1 align="center">Middleware</h1>
+<h1 align="center">Gravação de logs</h1>
 <p align="center">
   <img src="../../assets/logo.jpeg" width="300" heigth="300">
 </p>
@@ -27,43 +27,29 @@ ___
 
 ## :information_source: Sobre
 
-Opções de definições de rotas com o [ExpressJS](https://expressjs.com/pt-br/).
+Gravação de logs com a biblioteca [Winston](https://www.npmjs.com/package/winston), biblioteca ligada diretamente com o NodeJS.
+
 
 ## :book: Aulas
 
 <br>
 
-### :pushpin: Middleware
+### :pushpin: Gravação de logs
 
-Funções de middleware são funções que tem acesso ao seguinte:
+A partir dos logs é possível verificar como está sendo o uso dos endpoints, ou até mesmo rastrear erros que ocorreram. O Winston é uma biblioteca que suporta vários tipos de transporte, ou seja, com ele é possível que um mesmo log seja enviado a destinos diferentes, como por exemplo arquivos de log diferentes para um banco de dados remoto ou até mesmo para o próprio console. Ele também suporta os 7 níveis de log abaixo:
+▪ error: 0
+▪ warn: 1
+▪ info: 2
+▪ http: 3
+▪ verbose: 4
+▪ debug: 5
+▪ silly: 6
 
-- Objeto de solicitação (req);
+Isso irá permitir que você possa configurar dinamicamente até qual ponto você deseja que sua aplicação registre os logs naquele momento.
 
-- Objeto de resposta (res);
+O nível dos logs respeita a ordem crescente, por exemplo, ao definir a aplicação com um nível de log 4, ela irá gravar nos logs os níveis 4, 3, 2, 1, 0, excluindo então os acima dele, no caso o 5 e 6.
 
-- Próxima função de middleware no ciclo da requisição e resposta do aplicativo (next).
 
-Podem executar qualquer código, fazer mudanças nos objetos de solicitação, encerrar o ciclo e chamar a próxima função de middleware na pilha.
-
-Ela pode ser utilizada para interceptar chamadas em específico ou qualquer chamada.
-
-Elas são as funções que são executadas quando determinada rota é atingida.
-
-<img src="./assets/middleware.png" width="500">
-
-Uma função de middleware pode ser implementada no nível da aplicação ou no nível do roteador. 
-
-:arrow_right: Nível da aplicação
-
-Pode ser configurado através de uma instância do Express, utilizando para isso as funções “use” ou uma específica de um método HTTP, como GET ou POST por exemplo.
-
-:arrow_right: Nível do roteador
-
-Não está vinculada diretamente à instância do Express, mas sim à uma instância do Router. 
-
-É comum que um projeto, ao invés de colocar todas as suas rotas em um mesmo arquivo, faça uma divisão destas rotas em vários arquivos, utilizando para isso o Router. 
-
-Essa abordagem faz com que o projeto fique mais organizado, mantendo as rotas relacionadas juntas, mas separando em arquivos as que não tem tanta relação, facilitando assim a manutenção e evolução do projeto.
 
 <br>
 
