@@ -1,12 +1,11 @@
 {
-  "name": "middleware",
+  "name": "error",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Nadia Ligia",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+   "start": "nodemon index.js" 
   },
   "dependencies": {
     "express": "^4.17.1",
