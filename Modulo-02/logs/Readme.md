@@ -51,8 +51,6 @@ O nível dos logs respeita a ordem crescente, por exemplo, ao definir a aplicaç
 
 Outra funcionalidade interessante do Winston é a possibilidade de configurar formatos de log, adicionando informações customizadas no formato desejado, como por exemplo a data e horário do registro.
 
-
-
 <br>
 
 ### :pushpin: Instalação
@@ -125,7 +123,7 @@ yarn start
 
 :arrow_right: *package.json*
 
-<img src="./assets/package-json.png" width="300" heigth="300">
+<img src="../assets/package-json.png" width="300" heigth="300">
 
 <br>
 

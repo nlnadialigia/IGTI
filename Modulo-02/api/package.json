@@ -1,0 +1,17 @@
+{
+  "name": "may-bank-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nadia Ligia",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

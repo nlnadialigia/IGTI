@@ -49,7 +49,7 @@ Ela pode ser utilizada para interceptar chamadas em específico ou qualquer cham
 
 Elas são as funções que são executadas quando determinada rota é atingida.
 
-<img src="./assets/middleware.png" width="500">
+<img src="../assets/middleware.png" width="500">
 
 Uma função de middleware pode ser implementada no nível da aplicação ou no nível do roteador. 
 

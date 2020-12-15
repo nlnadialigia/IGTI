@@ -27,7 +27,8 @@ ___
 
 ## :information_source: Sobre
 
-Opções de definições de rotas com o [ExpressJS](https://expressjs.com/pt-br/).
+Tratamento de erros de uma API.
+
 
 ## :book: Aulas
 
@@ -35,7 +36,9 @@ Opções de definições de rotas com o [ExpressJS](https://expressjs.com/pt-br/
 
 ### :pushpin: Tratamento de erros
 
-Tratamento de erros é uma parte muito importante de uma API. Um erro pode ser originado a partir de vários pontos, como por exemplo valores inválidos que foram passados como parâmetro. Por isso é importante que a API seja capaz de se recuperar de um erro e informar adequadamente ao usuário o que ocorreu, para que o mesmo possa tratar da melhor forma o ocorrido. O Express faz um tratamento padrão caso nenhum outro tenha sido especificado.
+Tratamento de erros é uma parte muito importante de uma API. Um erro pode ser originado a partir de vários pontos, como por exemplo valores inválidos que foram passados como parâmetro. Por isso é importante que a API seja capaz de se recuperar de um erro e informar adequadamente ao usuário o que ocorreu, para que o mesmo possa tratar da melhor forma o ocorrido. 
+
+O Express faz um tratamento padrão caso nenhum outro tenha sido especificado.
 
 Caso o erro tenha sido gerado a partir de um código assíncrono e deseje utilizar o tratamento padrão do Express, é preciso passar o erro para o “next”, para que assim ele possa ser identificado. Caso não seja chamado o “next”, a requisição não irá retornar.
 
@@ -43,14 +46,14 @@ O Express permite que o desenvolvedor escreva as próprias funções para tratam
 
 O middleware para tratamento de exceção deve ser configurado por último na instância do Express, de forma que ele possa receber erros gerados em todas as definições anteriores. É permitido que exista várias funções para tratamento de erros, da mesma forma como os middlewares comuns, bastando chamar o “next” passando o objeto de erro como parâmetro, para enviar o fluxo para a próxima função. É importante observar que nesse caso a última função de tratamento deverá encerrar a requisição através do objeto de resposta, caso contrário a requisição ficará pendente sem resposta.
 
-**Tratamento de erro padrão**
+:arrow_right: *Tratamento de erro padrão*
 ```js
 app.get('/', (request, response) => {
     throw new Error('Error message test')
 })
 ```
 
-**Tratamento de erro padrão assíncrono**
+:arrow_right: *Tratamento de erro padrão assíncrono*
 ```js
 app.post('/', async(request, response, next) => {
     try {
@@ -61,15 +64,15 @@ app.post('/', async(request, response, next) => {
 })
 ```
 
-**Tratamento de erro personalizado**
+:arrow_right: *Tratamento próprio de erro.*
 ```js
 app.use((error, request, response, next) => {
-    console.log('Error 1');
+    console.log('Error 2');
     response.status(500).send('Ocorreu um erro. Tente novamente')
 })
 ```
 
-**Tratamento de erro em várias funções**
+:arrow_right: *Tratamento de erro em várias funções.*
 ```js
 app.use((error, request, response, next) => {
     console.log('Error 1');
@@ -121,6 +124,17 @@ ou
 
 ```
 yarn add nodemon
+```
+
+:arrow_right: *instalar o Winston*
+```
+npm install winston
+```
+
+ou
+
+```
+yarn add winston
 ```
 
 ### :pushpin: Rodar o servidor

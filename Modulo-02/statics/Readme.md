@@ -102,7 +102,7 @@ yarn start
 
 :arrow_right: *package.json*
 
-<img src="./assets/package-json.png" width="300" heigth="300">
+<img src="../assets/package-json.png" width="300" heigth="300">
 
 <br>
 

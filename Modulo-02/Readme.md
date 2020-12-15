@@ -33,6 +33,10 @@ Módulo referente ao Desenvolvimento de API.
 - [ExpressJS](./express)
 - [Rotas](./routes)
 - [Middleware](./middleware)
+- [Tratamento de erros](./error)
+- [Gravação de logs](./logs)
+- [Servindo arquivos estáticos](./statics)
+- [Construção de uma api](./api)
 
 
 <br>

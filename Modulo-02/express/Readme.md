@@ -105,7 +105,7 @@ yarn start
 
 :arrow_right: *package.json*
 
-<img src="./assets/package-json.png" width="300" heigth="300">
+<img src="../assets/package-json.png" width="300" heigth="300">
 
 <br>
 
@@ -120,11 +120,11 @@ Essa aplicativo foi utilizado para testar se as rotas `get` e `post` utilizadas 
 
 :arrow_right: *terminal*
 
-<img src="./assets/terminal.gif" width="300">
+<img src="../assets/terminal.gif" width="300">
 
 :arrow_right: *insomnia*
 
-<img src="./assets/insomnia.gif" width="300">
+<img src="../assets/insomnia.gif" width="300">
 
 <br>
 

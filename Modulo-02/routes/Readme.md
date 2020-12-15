@@ -176,47 +176,6 @@ app.route('/testRoute')
 ```
 <br>
 
-### :pushpin: Middleware
-
-Funções de middleware são funções que tem acesso ao seguinte:
-
-- Objeto de solicitação (req);
-
-- Objeto de resposta (res);
-
-- Próxima função de middleware no ciclo da requisição e resposta do aplicativo (next).
-
-Podem executar qualquer código, fazer mudanças nos objetos de solicitação, encerrar o ciclo e chamar a próxima função de middleware na pilha.
-
-Ela pode ser utilizada para interceptar chamadas em específico ou qualquer chamada.
-
-Elas são as funções que são executadas quando determinada rota é atingida.
-
-<img src="./assets/middleware.png" width="500">
-
-Uma função de middleware pode ser implementada no nível da aplicação ou no nível do roteador. 
-
-:arrow_right: Nível da aplicação
-
-Pode ser configurado através de uma instância do Express, utilizando para isso as funções “use” ou uma específica de um método HTTP, como GET ou POST por exemplo.
-
-```js
-```
-
-:arrow_right: Nível do roteador
-
-Não está vinculada diretamente à instância do Express, mas sim à uma instância do Router. 
-
-É comum que um projeto, ao invés de colocar todas as suas rotas em um mesmo arquivo, faça uma divisão destas rotas em vários arquivos, utilizando para isso o Router. 
-
-Essa abordagem faz com que o projeto fique mais organizado, mantendo as rotas relacionadas juntas, mas separando em arquivos as que não tem tanta relação, facilitando assim a manutenção e evolução do projeto.
-
-```js
-```
-
-
-<br>
-
 ### :pushpin: Instalação
 
 <br>
