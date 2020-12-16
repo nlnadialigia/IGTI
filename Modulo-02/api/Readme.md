@@ -279,6 +279,26 @@ if (!account.name || account.balance == null) {
 
 <br>
 
+### :pushpin: Cors
+
+O compartilhamento de recursos entre origens (CORS) é um recurso de segurança de navegador que restringe as solicitações HTTP entre origens que são iniciadas em scripts em execução no navegador. Se os recursos da API REST receberem solicitações HTTP não simples de origem cruzada, será necessário ativar o suporte ao [CORS](https://expressjs.com/en/resources/middleware/cors.html).
+
+<br>
+
+### :pushpin: Documentação
+
+- Criação de documentação para os endpoints.
+
+- Para a geração da documentação foi utilizado o [Swagger](https://swagger.io/).
+
+- Para edição o próprio Swagger possuir um [editor](https://editor.swagger.io/).
+
+- O arquivo gerado será copiado no `doc.js`.
+
+- Para a utilização da documentação na api será utilizada a biblioteca [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+
+<br>
+
 ### :pushpin: Iniciar projeto
 
 <br>

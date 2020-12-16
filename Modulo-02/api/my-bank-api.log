@@ -15,3 +15,34 @@
 2020-12-16T03:30:11.015Z [label] info: PATCH/account/updateBalance - {"id":2,"balance":10000}
 2020-12-16T03:30:20.149Z [label] error: Id e Balance são obrigatórios
 2020-12-16T03:33:20.234Z [label] info: API Started!
+2020-12-16T12:36:14.427Z [label] info: API Started!
+2020-12-16T12:36:19.866Z [label] info: GET/account
+2020-12-16T12:44:40.843Z [label] info: API Started!
+2020-12-16T12:44:44.963Z [label] info: API Started!
+2020-12-16T12:44:54.732Z [label] info: API Started!
+2020-12-16T12:45:42.512Z [label] info: GET/account
+2020-12-16T12:48:10.188Z [label] info: API Started!
+2020-12-16T12:48:13.027Z [label] info: GET/account
+2020-12-16T12:48:19.534Z [label] info: GET/account
+2020-12-16T12:52:06.185Z [label] info: API Started!
+2020-12-16T12:52:24.893Z [label] info: GET/account
+2020-12-16T12:54:16.572Z [label] info: API Started!
+2020-12-16T12:54:24.208Z [label] info: API Started!
+2020-12-16T12:54:27.081Z [label] info: API Started!
+2020-12-16T13:36:52.667Z [label] info: API Started!
+2020-12-16T13:37:03.214Z [label] info: API Started!
+2020-12-16T13:37:06.359Z [label] info: API Started!
+2020-12-16T13:37:08.065Z [label] info: API Started!
+2020-12-16T13:37:16.410Z [label] info: API Started!
+2020-12-16T13:37:24.907Z [label] info: API Started!
+2020-12-16T13:42:17.890Z [label] info: API Started!
+2020-12-16T13:42:19.829Z [label] info: API Started!
+2020-12-16T13:42:29.867Z [label] info: API Started!
+2020-12-16T13:42:43.139Z [label] info: API Started!
+2020-12-16T13:42:55.169Z [label] info: API Started!
+2020-12-16T13:43:00.547Z [label] info: API Started!
+2020-12-16T13:43:25.028Z [label] info: API Started!
+2020-12-16T13:46:02.239Z [label] info: GET/account
+2020-12-16T13:47:06.371Z [label] info: API Started!
+2020-12-16T13:47:29.719Z [label] info: API Started!
+2020-12-16T13:50:09.494Z [label] info: API Started!
