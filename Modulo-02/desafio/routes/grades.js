@@ -12,7 +12,6 @@ router.post('/', async (request, response, next) => {
     }
     
     const data = JSON.parse(await readFile(fileName))
-    console.log(data)
     grade = {
       id: data.nextId++,
       ...grade,

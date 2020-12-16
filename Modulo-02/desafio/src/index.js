@@ -1,18 +1,18 @@
 import express from 'express'
-import {promises as fs} from 'fs'
+import { promises as fs } from 'fs'
 import winston from 'winston'
 import swaggerUi from 'swagger-ui-express'
 import gradesRouter from '../routes/grades.js'
-import gradesStudents from '../routes/students.js'
+import filtersRouter from '../routes/filters.js'
 
 const app = express()
 app.use(express.json())
 app.use('/grade', gradesRouter)
-app.use('/students', gradesStudents)
+app.use('/filters', filtersRouter)
 
-const {readFile, writeFile} = fs
-const {combine, timestamp, label, printf} = winston.format
-const myFormat = printf(({level, message, label, timestamp}) => {
+const { readFile, writeFile } = fs
+const { combine, timestamp, label, printf } = winston.format
+const myFormat = printf(({ level, message, label, timestamp }) => {
   return `${timestamp} [${label}] - ${level}: ${message}`
 })
 
@@ -21,16 +21,16 @@ global.logger = winston.createLogger({
   level: "silly",
   transports: [
     new (winston.transports.Console)(),
-    new (winston.transports.File)({filename: 'grades-control-api.log'})
+    new (winston.transports.File)({ filename: 'grades-control-api.log' })
   ],
   format: combine(
-    label({label: 'grades-control-api'}),
+    label({ label: 'grades-control-api' }),
     timestamp(),
     myFormat
   )
 })
 
-app.listen(3000, async() => {
+app.listen(3000, async () => {
   try {
     await readFile(fileName)
     logger.info('API Started!');
