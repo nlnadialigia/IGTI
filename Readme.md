@@ -52,6 +52,10 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Json-server](https://www.npmjs.com/package/json-server)
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Winston](https://www.npmjs.com/package/winston)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
 
 <br>
 
