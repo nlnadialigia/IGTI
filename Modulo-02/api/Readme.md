@@ -155,11 +155,127 @@ router.get('/:id', async (request, response) => {
 
 - O método se inicia com a leitura dos registros salvos no arquivo JSON, e depois é executado um método filter, removendo o registro de id igual ao informado. O restante dos dados é então novamente salvo no arquivo JSON.
 
+```js
+router.delete('/:id', async (request, response) => {
+  try {
+    const data = JSON.parse(await readFile(global.fileName))
+    data.account = data.account.filter(account => account.id !== parseInt(request.params.id))
+    await writeFile(global.fileName, JSON.stringify(data, null, 2))
+    response.send('Registro excluído com sucesso!')
+
+  } catch (error) {
+    response.status(400).send({ error: error.message })
+  }
+})
+```
+
 <br>
 
 ### :pushpin: Método PUT
 
-Esse método tem a função de atualizar as informações de determinado registro. Os dados dos registros são obtidos pelo body da requisição, o arquivo JSON é lido e é feita uma busca pelo registro de id correspondente ao passado no body. Ao encontrar, o registro é atualizado e o conteúdo é novamente salvo no arquivo JSON.
+- Esse método tem a função de atualizar as informações de determinado registro. Os dados dos registros são obtidos pelo body da requisição, o arquivo JSON é lido e é feita uma busca pelo registro de id correspondente ao passado no body. Ao encontrar, o registro é atualizado e o conteúdo é novamente salvo no arquivo JSON.
+
+```js
+router.put('/', async (request, response) => {
+  try {
+    let account = request.body
+    const data = JSON.parse(await readFile(global.fileName))
+    const index = data.account.findIndex(acc => acc.id === account.id)
+
+    data.account[index] = account
+    await writeFile(global.fileName, JSON.stringify(data, null, 2))
+    response.send(account)
+
+  } catch (error) {
+    response.status(400).send({ error: error.message })
+  }
+})
+```
+
+- Não deve ser confundido com o `patch`. Nesse método é atualizado algum dado do registro e não o registro todo.
+```js
+router.patch('/updateBalance', async (request, response) => {
+  try {
+    let account = request.body
+    const data = JSON.parse(await readFile(global.fileName))
+    const index = data.account.findIndex(acc => acc.id === account.id)
+
+    data.account[index].balance = account.balance
+    await writeFile(global.fileName, JSON.stringify(data, null, 2))
+    response.send(data.account[index])
+
+  } catch (error) {
+    response.status(400).send({ error: error.message })
+  }
+})
+```
+
+<br>
+
+### :pushpin: Tratamento de erros
+
+- Para tratativa de erro utilizar `router.use` após todos os métodos que utilizarão os erros.
+
+- Na `arrow function` é necessário passar todos os parâmetros para que o programa entenda qual é o parâmetro que será utilizado.
+
+- Nos métods que utilizarão o erro é necessária a inclusão do `next` nos parâmetros da `arrow function`.
+
+```js
+router.use((error, request, response, next) => {
+  console.log(error);
+  response.status(400).send({ error: error.message })
+})
+```
+
+<br>
+
+### :pushpin: Gravação de logs
+
+- Utilização da ferramenta *Wintons* para a gravação de logs.
+
+- Será utilizado para substituir todos os `console.log` da aplicação e em todas as requisições, informando o que foi feito.
+
+- Quando o `logger` for definido de forma global o uso da palavra `global` quando da utilização do mesmo é facultativo.
+
+```js
+const { combine, timestamp, label, printf } = winston.format
+const myFormat = printf(({ level, message, label, timestamp }) => {
+  return `${timestamp} [label] ${level}: ${message}`
+})
+
+global.logger = winston.createLogger({
+  level: "silly",
+  transports: [
+    new (winston.transports.Console)(),
+    new (winston.transports.File)({ filename: "my-bank-api.log" })
+  ],
+  format: combine(
+    label({ label: 'my-banck-api' }),
+    timestamp(),
+    myFormat
+  )
+})
+```
+
+<br>
+
+### :pushpin: Validação dos campos
+
+- Para que não sejam acrescentados dados indevidos ou gerados registros vazios ou faltando campos, será realizada a validadação dos campos.
+
+- Como o valor do `balance` pode ser *0*, a validação deverá passar utilizando `null`
+
+- Para que não sejam inseridos campos adversos, remover o operador `spread` e inserir todos os campos que estarão na api.
+
+- As validações serão utilizadas nos métodos *post*, *put* e *patch*.
+
+**Exemplo no método POST**
+
+```js
+if (!account.name || account.balance == null) {
+  throw new Error('Name e Balance são obrigatórios')
+}
+```
 
 <br>
 

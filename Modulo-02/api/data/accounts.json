@@ -3,23 +3,23 @@
   "account": [
     {
       "id": 1,
-      "name": "Nadia Ligia",
-      "balance": 200
+      "name": "Rodolfo Andre",
+      "balance": 0.15
     },
     {
       "id": 2,
-      "name": "Lucas Mendes",
-      "balance": 2450.6
+      "name": "Maria Madalena",
+      "balance": 10000
     },
     {
       "id": 3,
-      "name": "Antonina Georgiana",
-      "balance": 3950.1
+      "name": "Anderson Andre",
+      "balance": 30
     },
     {
       "id": 4,
-      "name": "Ana Dirce",
-      "balance": 1500.1
+      "name": "Luis Andre",
+      "balance": 30
     }
   ]
 }

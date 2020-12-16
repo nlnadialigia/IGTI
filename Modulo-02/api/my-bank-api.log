@@ -1,0 +1,17 @@
+2020-12-16T02:58:33.945Z [label] info: API Started!
+2020-12-16T02:59:03.680Z [label] info: API Started!
+2020-12-16T03:05:22.735Z [label] info: API Started!
+2020-12-16T03:05:41.970Z [label] info: POST/account - {"id":2,"name":"Aluisio Andre","balance":15000}
+2020-12-16T03:05:55.508Z [label] info: POST/account - {"id":3,"name":"Anderson Andre","balance":30}
+2020-12-16T03:05:58.130Z [label] info: GET/account
+2020-12-16T03:06:08.361Z [label] info: GET/account/:id
+2020-12-16T03:06:15.117Z [label] info: PUT/account - {"id":2,"name":"Maria Madalena","balance":2000.6}
+2020-12-16T03:06:18.091Z [label] info: GET/account
+2020-12-16T03:21:57.437Z [label] info: API Started!
+2020-12-16T03:26:56.246Z [label] info: API Started!
+2020-12-16T03:29:44.605Z [label] info: API Started!
+2020-12-16T03:29:59.602Z [label] info: POST/account - {"id":4,"name":"Luis Andre","balance":30}
+2020-12-16T03:30:04.896Z [label] error: Name e Balance são obrigatórios
+2020-12-16T03:30:11.015Z [label] info: PATCH/account/updateBalance - {"id":2,"balance":10000}
+2020-12-16T03:30:20.149Z [label] error: Id e Balance são obrigatórios
+2020-12-16T03:33:20.234Z [label] info: API Started!
