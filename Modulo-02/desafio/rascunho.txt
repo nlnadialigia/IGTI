@@ -1,0 +1,4 @@
+
+router.get('/totalGrade', async (request, response, next) => {
+ 
+})

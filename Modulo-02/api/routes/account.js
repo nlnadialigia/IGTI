@@ -61,7 +61,7 @@ router.delete('/:id', async (request, response, next) => {
     await writeFile(global.fileName, JSON.stringify(data, null, 2))
     response.send('Registro excluído com sucesso!')
 
-    logger.info(`GET/account/:id - ${request.params.id}`)
+    logger.info(`DELETE/account/:id - ${request.params.id}`)
   } catch (error) {
     next(error)
   }

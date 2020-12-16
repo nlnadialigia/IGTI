@@ -1,0 +1,94 @@
+2020-12-16T19:24:51.436Z [grades-control-api] - info: API Started!
+2020-12-16T19:24:56.914Z [grades-control-api] - info: GET/grade/:id - totalGrades
+2020-12-16T19:27:37.235Z [grades-control-api] - info: API Started!
+2020-12-16T19:27:44.826Z [grades-control-api] - info: API Started!
+2020-12-16T19:27:47.966Z [grades-control-api] - info: API Started!
+2020-12-16T19:27:49.313Z [grades-control-api] - info: API Started!
+2020-12-16T19:27:51.818Z [grades-control-api] - info: API Started!
+2020-12-16T19:27:56.705Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:00.013Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:01.859Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:10.389Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:13.325Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:17.085Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:23.608Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:25.406Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:29.400Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:34.204Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:37.084Z [grades-control-api] - info: API Started!
+2020-12-16T19:28:50.047Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:01.136Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:04.212Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:06.423Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:29.740Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:48.804Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:55.687Z [grades-control-api] - info: API Started!
+2020-12-16T19:29:57.123Z [grades-control-api] - info: API Started!
+2020-12-16T19:30:10.114Z [grades-control-api] - info: API Started!
+2020-12-16T19:33:16.573Z [grades-control-api] - info: GET/totalGrades
+2020-12-16T19:33:41.728Z [grades-control-api] - info: API Started!
+2020-12-16T19:33:46.408Z [grades-control-api] - info: API Started!
+2020-12-16T19:33:57.250Z [grades-control-api] - info: API Started!
+2020-12-16T19:33:58.467Z [grades-control-api] - info: API Started!
+2020-12-16T19:34:13.246Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:34:38.159Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:35:05.369Z [grades-control-api] - info: API Started!
+2020-12-16T19:35:15.866Z [grades-control-api] - info: API Started!
+2020-12-16T19:35:21.604Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:37:21.305Z [grades-control-api] - info: API Started!
+2020-12-16T19:37:24.083Z [grades-control-api] - info: API Started!
+2020-12-16T19:37:30.859Z [grades-control-api] - info: API Started!
+2020-12-16T19:37:42.482Z [grades-control-api] - info: API Started!
+2020-12-16T19:37:58.962Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:01.138Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:03.562Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:05.808Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:07.631Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:14.103Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:38:48.931Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:53.831Z [grades-control-api] - info: API Started!
+2020-12-16T19:38:59.043Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:05.300Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:06.665Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:09.881Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:12.683Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:23.238Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:29.209Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:33.928Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:37.296Z [grades-control-api] - info: API Started!
+2020-12-16T19:39:53.457Z [grades-control-api] - info: API Started!
+2020-12-16T19:40:59.014Z [grades-control-api] - info: API Started!
+2020-12-16T19:41:01.994Z [grades-control-api] - info: API Started!
+2020-12-16T19:41:22.142Z [grades-control-api] - info: API Started!
+2020-12-16T19:41:29.860Z [grades-control-api] - info: API Started!
+2020-12-16T19:41:41.751Z [grades-control-api] - info: API Started!
+2020-12-16T19:41:51.610Z [grades-control-api] - info: API Started!
+2020-12-16T19:42:01.683Z [grades-control-api] - info: API Started!
+2020-12-16T19:42:02.109Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:42:29.377Z [grades-control-api] - info: API Started!
+2020-12-16T19:42:30.540Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:42:40.809Z [grades-control-api] - info: API Started!
+2020-12-16T19:42:42.047Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:43:17.606Z [grades-control-api] - info: API Started!
+2020-12-16T19:44:52.590Z [grades-control-api] - info: API Started!
+2020-12-16T19:44:55.122Z [grades-control-api] - info: API Started!
+2020-12-16T19:44:58.907Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:00.465Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:03.631Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:09.119Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:10.729Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:21.934Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:24.919Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:33.460Z [grades-control-api] - info: API Started!
+2020-12-16T19:45:34.120Z [grades-control-api] - info: GET/totalGrade - undefined
+2020-12-16T19:46:10.375Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:05.454Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:10.917Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:13.976Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:15.214Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:16.257Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:22.946Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:32.842Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:37.090Z [grades-control-api] - info: API Started!
+2020-12-16T19:50:49.733Z [grades-control-api] - info: API Started!
+2020-12-16T19:52:30.543Z [grades-control-api] - info: API Started!

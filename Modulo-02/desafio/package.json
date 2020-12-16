@@ -1,17 +1,18 @@
 {
-  "name": "desafio-modulo-02",
+  "name": "grades-control-api",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Desafio módulo 2 API grades-control-api",
   "author": "Nadia Ligia",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "swagger-ui-express": "^4.1.5",
+    "winston": "^3.3.3"
   }
 }
