@@ -22,8 +22,6 @@ ___
 
 ___
 
-<br>
-
 # :information_source: Sobre
 
 Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp FullStack do IGTI.

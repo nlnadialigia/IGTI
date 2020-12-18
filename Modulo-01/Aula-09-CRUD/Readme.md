@@ -17,14 +17,12 @@ ___
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#book-especificações">Especificações</a>&nbsp;|&nbsp;
-  <a href="#rocket-resultado>Resultado</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#rocket-resultado">Resultado</a>&nbsp;|&nbsp;
+  <a href="#video_game-teste">Teste</a>&nbsp;|&nbsp;
 </h3>
 
 ___
 
-<br>
-<br>
 
 ## :information_source: Sobre
 
@@ -37,6 +35,10 @@ Implementação de CRUD (Create, Retrieve, Update, Delete).
 - Utilizar preventDefault() em form.onsubmit para prevenir o recarregamento da página 
 - A lista deve conter o nome cadastrado e um botão para excluí-lo. 
 - Ao clicar em um elemento da lista, seu conteúdo deve ser exibido no formulário, permitindo a edição do mesmo.
+
+## 🎮 Teste
+
+[Cadastro de nomes](https://igti-register-m01.netlify.app)
 
 ## :rocket: Resultado
 

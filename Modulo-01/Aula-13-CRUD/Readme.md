@@ -17,14 +17,12 @@ ___
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#book-especificações">Especificações</a>&nbsp;|&nbsp;
-  <a href="#rocket-resultado>Resultado</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#rocket-resultado">Resultado</a>&nbsp;|&nbsp;
+  <a href="#video_game-teste">Teste</a>&nbsp;|&nbsp;
+  
 </h3>
 
 ___
-
-<br>
-<br>
 
 ## :information_source: Sobre
 
@@ -37,14 +35,12 @@ Refatoração do CRUD implementado na Aula 09.
 - Implementação de *Arrow Function*
 - Implemetação de *Spread Operator*
 
+## 🎮 Teste
+
+[Cadastro de nomes](https://igti-register-m01.netlify.app)
+
 ## :rocket: Resultado
 
 <p align="center">
-  <img src="./assets/result.gif" width="300" heigth="300">
+  <img src="./assets/result.gif" width=500>
 </p>
-
-<br>
-
-## Licença 
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../../LICENSE) para mais detalhes.
