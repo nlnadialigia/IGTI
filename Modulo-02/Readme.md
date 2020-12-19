@@ -37,6 +37,7 @@ Módulo referente ao Desenvolvimento de API.
 - [Gravação de logs](./logs)
 - [Servindo arquivos estáticos](./statics)
 - [Construção de uma api](./api)
+- [Desafio do Módulo 2](./desafio)
 
 
 <br>

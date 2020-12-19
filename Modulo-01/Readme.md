@@ -30,6 +30,7 @@ Módulo referente aos Fundamentos de Desenvolvimento FullStack.
 ## :book: Atividades
 
 - [Aula 9 - CRUD com HTML, CSS e JavaScript](Aula-09-CRUD)
+- [Aula 13 - CRUD Refatoração](Aula-13-CRUD)
 - [Trabalho Prático](trabalho-pratico)
 - [Aula 17 - Exercício guiado](Aula-17-Exercicio-guiado)
 - [Desafio do Módulo 1](desafio)
