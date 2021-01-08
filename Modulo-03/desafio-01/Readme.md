@@ -17,7 +17,6 @@ ___
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#book-especificações">Roteiro</a>&nbsp;|&nbsp;
-  <a href="#rocket-resultado">Resultado</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -41,54 +40,47 @@ Este projeto será desenvolvido em:
 
 ### 📌 JavaScript não-performático
 
-✔ Criar estrutura de pastas com index.html e pasta ./js com script.js
-✔ Modificar título de index.html 
-✔ Certificar que extensão Live Server esteja devidamente instalada.
-✔ Executar Live Server e testar mudanças
-✔ Montar HTML com botão e lista não ordenada vazia. Definir id's para `<button>` e `<ul>`.
-✔ Montar JavaScript com window.addEventListener
-✔ Criar estado da aplicação com array de cliques.
-✔ Implementar clique do botão de forma que todas as <li>'s sejam preenchidas novamente.
-✔ Implementar função para formatar data/hora em arquivo isolado, referenciar arquivo antes de script.js e utilizá-la ao preencher o conteúdo de `<li>`.
-✔ Implementar função para mostrar em document.title a quantidade de cliques no botão.
-✔ Mostrar no Chrome Dev Tools que a `<ul>` é recriada eo app é, portanto, pouco performático.
-✔ Enfatizar código que o React encapsula e abstrai para o programador.
+✔ Criar estrutura de pastas com index.html e pasta ./js com script.js<br>
+✔ Modificar título de index.html <br>
+✔ Certificar que extensão Live Server esteja devidamente instalada.<br>
+✔ Executar Live Server e testar mudanças<br>
+✔ Montar HTML com botão e lista não ordenada vazia. Definir id's para `<button>` e `<ul>`.<br>
+✔ Montar JavaScript com window.addEventListener<br>
+✔ Criar estado da aplicação com array de cliques.<br>
+✔ Implementar clique do botão de forma que todas as `<li>`'s sejam preenchidas novamente.<br>
+✔ Implementar função para formatar data/hora em arquivo isolado, referenciar arquivo antes de script.js e utilizá-la ao preencher o conteúdo de `<li>`.<br>
+✔ Implementar função para mostrar em document.title a quantidade de cliques no botão.<br>
+✔ Mostrar no Chrome Dev Tools que a `<ul>` é recriada eo app é, portanto, pouco performático.<br>
+✔ Enfatizar código que o React encapsula e abstrai para o programador.<br>
 
 <br>
 
 ### 📌 JavaScript performático
 
-✔ Reaproveitar projeto anterior
-✔ Modificar título de index.html 
-✔ Modificar implementação do clique do botão de forma que seja inseridas uma nova li a cada clique.
-✔ Mostrar no Chrome Dev Tools que somente a nova li é criada,provando que o app é mais performático.
+✔ Reaproveitar projeto anterior<br>
+✔ Modificar título de index.html <br>
+✔ Modificar implementação do clique do botão de forma que seja inseridas uma nova li a cada clique.<br>
+✔ Mostrar no Chrome Dev Tools que somente a nova li é criada,provando que o app é mais performático.<br>
 
 ### 📌 React com Class Components
 
-✔ Utilizar _react-projeto-base 
-✔ Transformar App.js em Class Component
-✔ Definir this.state 
-✔ Reaproveitar função para transformação de data/hora no formato import/export
-✔ Implementar render()
-✔ Implementar clique no botão com método handleClick
-✔ Implementar componentDidUpdate para atualizar document.title com a quantidade de cliques.
+✔ Utilizar _react-projeto-base <br>
+✔ Transformar App.js em Class Component<br>
+✔ Definir this.state <br>
+✔ Reaproveitar função para transformação de data/hora no formato import/export<br>
+✔ Implementar render()<br>
+✔ Implementar clique no botão com método handleClick<br>
+✔ Implementar componentDidUpdate para atualizar document.title com a quantidade de cliques.<br>
 
 ### 📌 React com Hooks
 
-✔ Utilizar _react-projesto-base 
-✔ Definir estado com useState  
-✔ Reaproveitar função para transformação de data/hora no formato import/export
-✔ Implementar renderização do componente 
-✔ Implementar clique no botão com closure handleClick
-✔ Implementar useEffect para atualizar document.title com a quantidade de cliques.
+✔ Utilizar _react-projesto-base <br>
+✔ Definir estado com useState  <br>
+✔ Reaproveitar função para transformação de data/hora no formato import/export<br>
+✔ Implementar renderização do componente <br>
+✔ Implementar clique no botão com closure handleClick<br>
+✔ Implementar useEffect para atualizar document.title com a quantidade de cliques.<br>
 
-## :rocket: Resultado
-
-<p align="center">
-  <img src="./assets/result.gif" width="300" heigth="300">
-</p>
-
-<br>
 
 ## Licença 
 
