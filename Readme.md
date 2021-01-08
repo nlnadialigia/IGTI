@@ -32,6 +32,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 
 - [Modulo 01 - Fundamentos de Desenvolvimento FullStack](./Modulo-01)
 - [Modulo 02 - Desenvolvimento de APIs](./Modulo-02)
+- [Modulo 03 - React](./Modulo-03)
 
 <br>
 
@@ -54,6 +55,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Winston](https://www.npmjs.com/package/winston)
 - [Cors](https://www.npmjs.com/package/cors)
 - [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+- [ReactJS](https://reactjs.org/)
 
 <br>
 
