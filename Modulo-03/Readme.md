@@ -32,6 +32,7 @@ Módulo referente ao Desenvolvimento do front-end com React.
 - [Desafio 01](./desafio-01)
 - [Classes no Javascript](./class-js)
 - [Class Component - Parte 01](./react-counter-01)
+- [Class Component - Parte 02](./react-counter-02)
 
 
 <br>

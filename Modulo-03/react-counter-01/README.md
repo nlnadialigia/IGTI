@@ -1,4 +1,4 @@
-<h1 align="center">Class Component</h1>
+<h1 align="center">Class Component - parte 01</h1>
 <p align="center">
   <img src="../../assets/logo.jpeg" width="300" heigth="300">
 </p>
