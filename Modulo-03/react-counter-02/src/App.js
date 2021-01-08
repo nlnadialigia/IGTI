@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Band from './components/Band';
 import Counter from './components/Counter/Counter';
 import Counter2 from './components/Counter/Counter2';
 
@@ -25,10 +26,14 @@ export default class App extends Component {
     const { currentCounter, steps } = this.state;
     return (
       <>
+        <h3>Band</h3>
+        <Band />
+
         <h3>Counter</h3>
         <Counter />
         <Counter />
         <Counter />
+
         <h3>Counter 2</h3>
         <Counter2
           onCount={this.handleCount}
