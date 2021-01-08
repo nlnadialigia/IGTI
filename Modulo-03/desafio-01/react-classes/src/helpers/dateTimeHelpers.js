@@ -1,35 +1,18 @@
-function leftPad(value, count = 2, char = '0') {
-  const stringValue = value.toString();
-  let newValue = stringValue;
-
-  if (stringValue.length < count) {
-    for (let i = 0; i < count - stringValue.length; i++) {
-      newValue = char + stringValue;
-    }
-  }
-
-  return newValue;
-}
-
 function getNewTimestamp() {
-  const now = new Date();
-  let result = '';
+  const date = new Date()
+  const year = date.getUTCFullYear()
+  const month = `0${date.getUTCMonth() + 1}`.slice(-2)
+  const day = `0${date.getUTCDate()}`.slice(-2)
+  const hours = date.getHours()
+  const minutes = date.getMinutes()
+  const seconds = date.getSeconds()
+  const milliseconds = `${date.getMilliseconds()}`
+  
+  let result = `${day}/${month}/${year} - ${hours}:${minutes}:${seconds}.${milliseconds}`
+  console.log(result);
 
-  result += leftPad(now.getDate());
-  result += '/';
-  result += leftPad(now.getMonth() + 1);
-  result += '/';
-  result += now.getFullYear();
-  result += ' ';
-  result += leftPad(now.getHours());
-  result += ':';
-  result += leftPad(now.getMinutes());
-  result += ':';
-  result += leftPad(now.getSeconds());
-  result += '.';
-  result += leftPad(now.getMilliseconds(), 3);
-
-  return result;
+  return result  
 }
 
 export { getNewTimestamp };
+

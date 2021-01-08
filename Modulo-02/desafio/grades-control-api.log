@@ -1,0 +1,14 @@
+2020-12-17T13:28:27.052Z [grades-control-api] - info: API Started!
+2020-12-17T13:28:56.078Z [grades-control-api] - error: Registro não encontrado
+2020-12-17T13:29:15.126Z [grades-control-api] - info: POST /grade - {"id":49,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10,"timestamp":"2020-12-17T13:29:15.125Z"}
+2020-12-17T13:29:22.699Z [grades-control-api] - info: GET/grade/:id - 49
+2020-12-17T13:29:28.820Z [grades-control-api] - info: PUT/grade - {"id":49,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10}
+2020-12-17T13:37:16.859Z [grades-control-api] - info: GET/grade/:id - 43
+2020-12-17T13:48:59.851Z [grades-control-api] - info: GET/totalGrade - Roberto Archar
+2020-12-17T13:49:13.651Z [grades-control-api] - info: GET/totalGrade - Roberto Achar
+2020-12-17T13:55:50.711Z [grades-control-api] - error: Obrigatória a inserção de todos os dados
+2020-12-17T13:55:58.366Z [grades-control-api] - info: GET/grade/:id - 33
+2020-12-17T13:57:07.790Z [grades-control-api] - info: PUT/grade - {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":25}
+2020-12-17T13:57:12.901Z [grades-control-api] - info: PUT/grade - {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":15}
+2020-12-17T14:09:05.596Z [grades-control-api] - info: GET/totalGrade - 01 - JavaScript/Desafio
+2020-12-17T14:12:24.832Z [grades-control-api] - info: GET/grade/:id - 33

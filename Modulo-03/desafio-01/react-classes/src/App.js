@@ -15,7 +15,7 @@ export default class App extends Component {
     this.setState({ clickArray: newClickArray });
   };
 
-  componentDiUpdate(){
+  componentDidUpdate(){
     document.title = this.state.clickArray.length.toString();
   }
 
