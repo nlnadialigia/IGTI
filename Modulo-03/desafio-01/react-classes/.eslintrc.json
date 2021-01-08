@@ -31,6 +31,8 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
+    "no-plusplus": "off",
+    "no-unused-vars": "off",
     "camelcase": "off",
     "no-use-before-define": "off",
     "no-param-reassign": "off",
