@@ -29,7 +29,9 @@ Módulo referente ao Desenvolvimento do front-end com React.
 
 ## :book: Atividades
 
-- [Desafio 01](desafio-01)
+- [Desafio 01](./desafio-01)
+- [Classes no Javascript](./class-js)
+- [Class Component - Parte 01](./react-counter-01)
 
 
 <br>
