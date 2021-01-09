@@ -17,6 +17,7 @@ ___
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#book-especificações">Roteiro</a>&nbsp;|&nbsp;
+  <a href="#heavy_check_mark-resultado">Resultado</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -54,6 +55,11 @@ Para mais informações sobre os ciclos de vida de Class Components no React, ac
 ✔ Ao executar a aplicação, clicar no botão para esconder novamente os usuários e verificar `componentWillUnmount` de Users<br>
 ✔ Corrigir erro com `clearTimeout`.<br>
 ✔ Estilizar app.<br>
+
+## ✔️ Resultado
+
+<img src="./assets/results.gif" width="300" heigth="300">
+<br><br>
 
 ## Licença 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../../LICENSE) para mais detalhes.
