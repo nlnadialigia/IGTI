@@ -1,7 +1,6 @@
 import React from 'react';
 
-export default function DecrementButton(props) {
-  const { onDecrement } = props;
+export default function DecrementButton({ onDecrement }) {
   const handleButtonClick = () => {
     onDecrement('-');
   };
