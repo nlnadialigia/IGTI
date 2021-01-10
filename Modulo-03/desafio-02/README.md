@@ -16,7 +16,8 @@ ___
 
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
-  <a href="#book-especificações">Roteiro</a>&nbsp;|&nbsp;
+  <a href="#book-roteiro">Roteiro</a>&nbsp;|&nbsp;
+  <a href="#heavy_check-mark-resultado">Resultado</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -56,7 +57,7 @@ Criação de um app para listar países a partir da API [Restcountries](https://
 ✔ Criar função para formatar valores a partir de `Intl`<br>
 ✔ Estilizar o app<br>
 
-## ✔️ Resultado
+## ✔️ Resultado :check
 
 <img src="./assets/results.gif" width="400">
 

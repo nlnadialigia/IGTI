@@ -16,7 +16,7 @@ ___
 
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
-  <a href="#book-especificações">Roteiro</a>&nbsp;|&nbsp;
+  <a href="#book-roteiro">Roteiro</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 

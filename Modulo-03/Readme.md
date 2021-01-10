@@ -35,7 +35,9 @@ Módulo referente ao Desenvolvimento do front-end com React.
 - [Class Component - Parte 02](./react-counter-02)
 - [React Lifecycle](./react-lifecycle)
 - [Desafio 02](./desafio-02)
+- [Trabalho Prático](./trabalho-pratico)
 - [Functional Components](./functional-components)
+- [Desafio 03](./desafio-03)
 
 
 <br>
