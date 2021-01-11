@@ -7,13 +7,13 @@ export default class Body extends Component {
     return (
       <div>
         <h3 className={css.title}>Transformações</h3>
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
+        <Input title="Texto investido:" icon="content_copy" readOnly />
+        <Input title="Texto numérico:" icon="content_copy" />
+        <Input title="CSV:" icon="content_copy" />
+        <Input title="Slug:" icon="content_copy" />
+        <Input title="Somente vogais" icon="content_copy" />
+        <Input title="Somente consoantes" icon="content_copy" />
+        <Input title="Variável" icon="content_copy" />
       </div>
     );
   }
