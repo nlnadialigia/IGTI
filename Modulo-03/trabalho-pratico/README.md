@@ -74,6 +74,8 @@ obtidas aqui.
 - A imagem abaixo ilustra um exemplo de implementação. Será também
 disponibilizado um vídeo no formato .gif no Fórum de Avisos.
 
+<!-- import { normalize } from 'normalize-diacritics'; await normalize('söme stüff with áccènts');  -->
+
 <p align="center">
 <img src="./assets/model.gif" width="400">
 </p>
