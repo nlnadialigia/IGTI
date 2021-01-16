@@ -1,0 +1,19 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type=text].choice{
+  width: 200px;
+  border-bottom: 2px solid green;
+}
+
+.style{
+  font-size: 18px;
+}
