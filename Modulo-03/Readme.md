@@ -29,15 +29,19 @@ Módulo referente ao Desenvolvimento do front-end com React.
 
 ## :book: Atividades
 
-- [Desafio 01](./desafio-01)
-- [Classes no Javascript](./class-js)
-- [Class Component - Parte 01](./react-counter-01)
-- [Class Component - Parte 02](./react-counter-02)
-- [React Lifecycle](./react-lifecycle)
-- [Desafio 02](./desafio-02)
+### Class Components
+- [Desafio 01](./cc-desafio-01)
+- [Classes no Javascript](./cc-class-js)
+- [Class Component - Parte 01](./cc-react-counter-01)
+- [Class Component - Parte 02](./cc-react-counter-02)
+- [React Lifecycle](./cc-react-lifecycle)
+- [Desafio 02](./cc-desafio-02)
+- [Functional Components](./cc-functional-components)
+- [Desafio 03](./cc-desafio-03)
 - [Trabalho Prático](./trabalho-pratico)
-- [Functional Components](./functional-components)
-- [Desafio 03](./desafio-03)
+
+### React Hooks
+-[React Counter 02](./rh-reac-counter-02)
 
 
 <br>
