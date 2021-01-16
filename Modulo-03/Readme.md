@@ -36,7 +36,6 @@ Módulo referente ao Desenvolvimento do front-end com React.
 - [React Lifecycle](./cc-react-lifecycle)
 - [Desafio 02](./cc-desafio-02)
 - [Functional Components](./cc-functional-components)
-- [Desafio 03](./cc-desafio-03)
 - [Trabalho Prático](./trabalho-pratico)
 
 ## :book: Atividades - Functional Components com Hooks
@@ -46,7 +45,6 @@ Migração dos projetos realizdos em Class Components para Functional Components
 - [React Counter 02](./rh-react-counter-02) 
 - [React Lifecycle](./rh-react-lifecycle)
 - [Desafio 02](./rh-desafio-02)
-- [Desafio 03](./rh-desafio-03)
 
 ### :pushpin: Roteiros
 
@@ -60,9 +58,6 @@ Migração dos projetos realizdos em Class Components para Functional Components
 - Converter componente App
 
 #### react-desafio-02-hooks 
-- Converter componente App
-
-#### react-desafio-03-hooks - frontend
 - Converter componente App
 
 <br>
