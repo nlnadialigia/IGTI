@@ -45,17 +45,17 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 
 ## :rocket: Tecnologias, Frameworks e Dependências
 
+- [Cors](https://www.npmjs.com/package/cors)
 - [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
-- [Yarn](https://yarnpkg.com)
+- [ExpressJS](https://expressjs.com/pt-br/)
 - [Json-server](https://www.npmjs.com/package/json-server)
 - [NodeJS](https://nodejs.org/en/)
-- [ExpressJS](https://expressjs.com/pt-br/)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
-- [Winston](https://www.npmjs.com/package/winston)
-- [Cors](https://www.npmjs.com/package/cors)
-- [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+- [Prettier](https://prettier.io)
 - [ReactJS](https://reactjs.org/)
+- [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+- [Winston](https://www.npmjs.com/package/winston)
+- [Yarn](https://yarnpkg.com)
 
 <br>
 
