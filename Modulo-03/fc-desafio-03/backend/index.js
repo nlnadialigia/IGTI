@@ -1,22 +1,8 @@
-/**
- * Precisamos do express para montar a API
- */
-const express = require('express');
+/* eslint-disable no-console */
+import express from 'express';
+import cors from 'cors';
 
-/**
- * Precisamos de cors para não termos problemas
- * de acesso à API
- */
-const cors = require('cors');
-
-/**
- * Instanciando o app com express()
- */
 const app = express();
-
-/**
- * Indicando que app utilizará o módulo de cors
- */
 app.use(cors());
 
 /**
