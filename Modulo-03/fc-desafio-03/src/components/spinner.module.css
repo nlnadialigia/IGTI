@@ -1,0 +1,8 @@
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+  font-size: 2rem;
+}

@@ -67,7 +67,7 @@ Criação de um app monitorar votações.
   ✔ Name<br>
   ✔ Votes<br>
   ✔ Percentage<br>
-  ✔ Popularity<br>
+  ✔ Popularity - <i>para as estrelas clicar neste <a href="https://www.alt-codes.net/star_alt_code.php">Link</a></i><br>
 </ul>
 
 ✔ Estilizar o app
