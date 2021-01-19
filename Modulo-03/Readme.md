@@ -47,6 +47,9 @@ Migração dos projetos realizados em Class Components para Functional Component
 - [React Counter 02](./rh-react-counter-02) 
 - [React Lifecycle](./rh-react-lifecycle)
 - [Desafio 02](./rh-desafio-02)
+- [React To do](./react-to-do)
+
+
 
 <br>
 
