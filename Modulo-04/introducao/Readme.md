@@ -17,21 +17,21 @@ ___
 
 # Índice
 
-- [Introdução](#⁉️-introdução)
-  - [Inicializar MongoDB](#book-inicializar-mongodb)
-  - [Banco de Dados](#book-banco-de-dados)
-  - [Coleções](#book-coleções)
-- [CRUD](#interrobang-crud)
-  - [Create](#book-create)
-  - [Retrieve](#book-retrieve)
-  - [Update](#book-update)
-  - [Delete](#book-delete)
-- [Outros](#interrobang-outros)
-  - [BulkWrite](#book-bulkwrite)
-  - [[Indices]](#book-índices)
-  - [Modelagem](#book-modelagem)
-  - [Agregações](#book-agregações)
-- [Licença](#licença)
+- [Introdução](#-introdução)
+  - [Inicializar MongoDB](#-inicializar-mongodb)
+  - [Banco de Dados](#-banco-de-dados)
+  - [Coleções](#-coleções)
+- [CRUD](#-crud)
+  - [Create](#-create)
+  - [Retrieve](#-retrieve)
+  - [Update](#-update)
+  - [Delete](#-delete)
+- [Outros](#-outros)
+  - [BulkWrite](#-bulkwrite)
+  - [[Indices]](#-índices)
+  - [Modelagem](#-modelagem)
+  - [Agregações](#-agregações)
+- [Licença](#-licença)
 
 
 ___
