@@ -28,10 +28,10 @@ ___
   - [Delete](#-delete)
 - [Outros](#-outros)
   - [BulkWrite](#-bulkwrite)
-  - [[Indices]](#-índices)
+  - [Indices](#-índices)
   - [Modelagem](#-modelagem)
   - [Agregações](#-agregações)
-- [Licença](#-licença)
+- [Licença](#-licenca)
 
 
 ___
