@@ -16,7 +16,7 @@ ___
 <br>
 Índice
 =======
-<!--ts-->
+
 - [Introdução](#interrobang-introdução)
   - [Inicializar MongoDB](#book-inicializar-mongodb)
   - [Banco de Dados](#book-banco-de-dados)
@@ -32,7 +32,7 @@ ___
   - [Modelagem](#book-modelagem)
   - [Agregações](#book-agregações)
 - [Licença](#licença)
-<!--te-->
+
 
 ___
 
