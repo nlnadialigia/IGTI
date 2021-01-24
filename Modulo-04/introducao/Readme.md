@@ -17,7 +17,7 @@ ___
 
 # Índice
 
-- [Introdução](#interrobang-introdução)
+- [Introdução](#⁉️-introdução)
   - [Inicializar MongoDB](#book-inicializar-mongodb)
   - [Banco de Dados](#book-banco-de-dados)
   - [Coleções](#book-coleções)
