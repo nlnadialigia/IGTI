@@ -1,6 +1,4 @@
-import mongoose from 'mongoose';
-
-await mongoose.connect('mongodb+srv://nlnadailgia-igti:zQfhdN5E6GF3gwL@bootcamp.c4xzu.mongodb.net/grades?retryWrites=true&w=majority', {
+import @bootcamp.c4xzu.mongodb.net/grades?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
