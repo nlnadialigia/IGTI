@@ -1,0 +1,11 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Integraçao MongoDB com Nodejs",
+  "main": "index.js",
+  "author": "Nadia Ligia",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}

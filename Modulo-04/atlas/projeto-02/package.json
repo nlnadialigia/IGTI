@@ -1,0 +1,12 @@
+{
+  "name": "projeto-02",
+  "version": "1.0.0",
+  "description": "Mongoose",
+  "main": "index.js",
+  "author": "Nadia Ligia",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^5.11.13"
+  }
+}
