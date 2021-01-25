@@ -1,4 +1,6 @@
-import @bootcamp.c4xzu.mongodb.net/grades?retryWrites=true&w=majority', {
+import mongoose from 'mongoose';
+
+await mongoose.connect('mongodb+srv://<user>:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,

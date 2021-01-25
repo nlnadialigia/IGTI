@@ -25,7 +25,6 @@ ___
   - [Definição](#-definição)
   - [Exemplo](#-exemplo)
   - [CRUD](#-crud)
-
 - [Licença](#-licenca)
 
 
@@ -77,7 +76,7 @@ especializado.
 - Copiar conexão disponibilizada no site no arquivo `index.js`
   ```js
   const MongoClient = require('mongodb').MongoClient;
-  const uri = "mongodb+srv://nlnadailgia-igti:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority";
+  const uri = "mongodb+srv://<user>:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority";
   const client = new MongoClient(uri, { 
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -137,7 +136,7 @@ aplicação.
 
   - Conexão ao MongoDB Atlas:
   ```js
-  await mongoose.connect('mongodb+srv://nlnadailgia-igti:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+  await mongoose.connect('mongodb+srv://<user>i:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
@@ -196,7 +195,121 @@ new student({
 
 ## 📖 CRUD
 
+<br>
 
+#### 📌 Criar o projeto API
+
+```bash
+yarn init -y
+```
+
+- criar arquivo `app.js`
+
+<br>
+
+#### 📌 Instalar as dependências
+
+- instalar o `express` e o `mongoose`
+
+```bash
+yarn add express mongoose
+```
+
+<br>
+
+#### 📌 Implementar o modelo com o Mongoose
+
+- criar arquivo na pasta `model` que armazenará a criação do model.
+
+- definir para qual coleção o modelo será referenciado.
+
+<br>
+
+#### 📌 Criação da API
+
+- criação da estrutura base da API.
+
+- separação dos aquivos de rotas.
+
+- conectar API ao banco de dados.
+
+<br>
+
+#### 📌 Implementar a rota Create
+
+- importação do modelo criado para utilização na rota.
+
+```js
+routes.post('/student', async (request, response) => {
+  try {
+    const student = new StudentModel(request.body);
+
+    await student.save();
+
+    response.send(student);
+  } catch (error) {
+    response.status(500).send(error);
+  }
+});
+```
+
+<br>
+
+#### 📌 Implementar a rota Retrieve
+
+```js
+routes.get('/student', async (request, response) => {
+  try {
+    const students = await StudentModel.find({});
+
+    response.send(students);
+  } catch (error) {
+    response.status(500).send(error);
+  }
+});
+```
+
+<br>
+
+#### 📌 Implementar a rota Update
+
+```js
+routes.patch('/student/:id', async (request, response) => {
+  try {
+    const { id } = request.params;
+
+    const student = StudentModel.findByIdAndUpdate({ _id: id }, request.body, {
+      new: true,
+    });
+
+    response.send(student);
+  } catch (error) {
+    response.status(500).send(error);
+  }
+});
+```
+
+<br>
+
+#### 📌 Implementar a rota Delete
+
+```js
+routes.delete('/student:id', async (request, response) => {
+  try {
+    const { id } = request.params;
+
+    const student = StudentModel.findByIdAndDelete({ _id: id });
+
+    if (!student) {
+      response.status(404).send('Documento não encontrado na coleção')
+    } else {
+      response.status(200).send();
+    }
+  } catch (error) {
+    response.status(500).send(error)
+  }
+});
+```
 <br>
 
 ## Licença 

@@ -33,6 +33,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Modulo 01 - Fundamentos de Desenvolvimento FullStack](./Modulo-01)
 - [Modulo 02 - Desenvolvimento de APIs](./Modulo-02)
 - [Modulo 03 - React](./Modulo-03)
+- [Modulo 04 - Persistência de Dados, Versionamento e Implantação](./Modulo-04)
 
 <br>
 
@@ -49,6 +50,8 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Eslint](https://eslint.org)
 - [ExpressJS](https://expressjs.com/pt-br/)
 - [Json-server](https://www.npmjs.com/package/json-server)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://www.npmjs.com/package/mongoose)
 - [NodeJS](https://nodejs.org/en/)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Prettier](https://prettier.io)
