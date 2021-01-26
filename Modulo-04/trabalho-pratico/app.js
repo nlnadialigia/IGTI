@@ -5,7 +5,7 @@ import routes from './routes/index.js';
 (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://nlnadailgia-igti:zQfhdN5E6GF3gwL@bootcamp.c4xzu.mongodb.net/bank?retryWrites=true&w=majority',
+      'mongodb+srv://user:password@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
