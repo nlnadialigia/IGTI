@@ -20,7 +20,7 @@ withdraw.post('/', async (request, response) => {
     }
 
     let { balance } = accountBalance;
-    balance -= value - 1;
+    balance -= value + 1;
 
     if (balance < 0) {
       return response.send('Saldo insuficiente');

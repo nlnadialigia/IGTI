@@ -6,31 +6,20 @@ const transfer = Router();
 transfer.post('/', async (request, response) => {
   try {
     const rate = 8;
-    const {
-      originAgency,
-      originNumber,
-      destinyAgency,
-      destinyNumber,
-      value,
-    } = request.body;
+    const { originNumber, destinyNumber, value } = request.body;
 
-    if (
-      !originAgency ||
-      !originNumber ||
-      !value ||
-      !destinyAgency ||
-      !destinyNumber
-    ) {
+    if (!originNumber || !value || !destinyNumber) {
       return response.send(
         'Preencha todos os dados para efetuar a transferência.',
       );
     }
 
     const query = {
-      origin: { agencia: originAgency, conta: originNumber },
-      destiny: { agencia: destinyAgency, conta: destinyNumber },
+      origin: { conta: originNumber },
+      destiny: { conta: destinyNumber },
     };
-    const project = { _id: 0, balance: 1 };
+
+    const project = { _id: 0, balance: 1, agencia: 1 };
 
     const originNumberBalance = await AccountModel.findOne(
       query.origin,
@@ -39,7 +28,7 @@ transfer.post('/', async (request, response) => {
 
     if (!originNumberBalance) {
       return response.status(404).send({
-        error: `Conta não encontrada, agência: ${originAgency}, conta: ${originNumber}`,
+        error: `Conta não encontrada, conta: ${originNumber}`,
       });
     }
 
@@ -50,12 +39,12 @@ transfer.post('/', async (request, response) => {
 
     if (!destinyNumberBalance) {
       return response.status(404).send({
-        error: `Conta não encontrada, agência: ${destinyAgency}, conta: ${destinyNumber}`,
+        error: `Conta não encontrada, conta: ${destinyNumber}`,
       });
     }
 
     let newValue = value;
-    if (query.origin.agencia !== query.destiny.agencia) newValue += rate;
+    if (originNumberBalance.agencia !== destinyNumberBalance.agencia) newValue += rate;
 
     if (originNumberBalance.balance - newValue < 0) {
       return response.send('Saldo insuficiente para a transferência.');

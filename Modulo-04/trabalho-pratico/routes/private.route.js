@@ -15,8 +15,8 @@ privateAccount.patch('/', async (request, response) => {
 
     for (const agency of findAgencies) {
       const findTopAccount = await AccountModel.find({ agencia: agency })
-        .sort({ balance: -1 })
-        .limit(1);
+        .limit(1)
+        .sort({ balance: -1 });
 
       const { name, balance, conta } = findTopAccount[0];
 
