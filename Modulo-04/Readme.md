@@ -32,8 +32,7 @@ Módulo referente a Persistência de Dados, Versionamento e Implantação.
 - [Capítulo 01 - Introdução ao MongoDB](./introducao)
 - [Capítulo 02 - MongoDB Atlas](./atlas)
 - [Trabalho Prático](./trabalho-pratico)
-<!-- - [Capítulo 03 - Git e GitHub](./git-github) -->
-<!-- - [Capítulo 04 - Heroku](./heroku) -->
+- [Capítulo 04 - Heroku](https://github.com/nlnadialigia/heroku.git)
 <!-- - [Desafio do Módulo](./desafio) -->
 
 
