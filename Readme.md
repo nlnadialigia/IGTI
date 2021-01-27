@@ -49,6 +49,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Cors](https://www.npmjs.com/package/cors)
 - [Eslint](https://eslint.org)
 - [ExpressJS](https://expressjs.com/pt-br/)
+- [Heroku](https://www.heroku.com/)
 - [Json-server](https://www.npmjs.com/package/json-server)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://www.npmjs.com/package/mongoose)
