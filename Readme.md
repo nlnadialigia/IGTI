@@ -47,6 +47,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 ## :rocket: Tecnologias, Frameworks e Dependências
 
 - [Cors](https://www.npmjs.com/package/cors)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Eslint](https://eslint.org)
 - [ExpressJS](https://expressjs.com/pt-br/)
 - [Heroku](https://www.heroku.com/)

@@ -5,7 +5,7 @@ import routes from './routes/index.js';
 (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://user:password@bootcamp.c4xzu.mongodb.net/<bdname>?retryWrites=true&w=majority',
+      `mongodb+srv://${process.env.USERDB}:${process.env.PWDDB}@bootcamp.c4xzu.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
@@ -24,6 +24,6 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-app.listen(4060, () => {
+app.listen(process.env.PORT, () => {
   console.log('Servidor iniciado na porta 4060!');
 });

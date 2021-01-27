@@ -1,7 +1,11 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 const MongoClient = require('mongodb').MongoClient;
 
 const uri = 
-  "mongodb+srv://<user>:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority";
+  `mongodb+srv://${process.env.USERDB}:${process.env.PWDDB}@bootcamp.c4xzu.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, { 
   useNewUrlParser: true,

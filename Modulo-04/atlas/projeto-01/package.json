@@ -6,6 +6,7 @@
   "author": "Nadia Ligia",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "mongodb": "^3.6.3"
   }
 }

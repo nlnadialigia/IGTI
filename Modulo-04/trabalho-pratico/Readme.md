@@ -60,5 +60,14 @@ Baixar o arquivo com os dados `account.json` para a carga inicial na base de dad
 
 <br>
 
+### 📌 Variáveis ambiente
+
+- Criar um arquivo `.env` na raíz do projeto.
+
+- Copiar a configuração do arquivo `.env-example` e adicionar o valor das variáveis.
+
+
+<br>
+
 ## Licença 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../../LICENSE) para mais detalhes.

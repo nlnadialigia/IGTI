@@ -1,6 +1,9 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 
-await mongoose.connect('mongodb+srv://<user>:<password>@bootcamp.c4xzu.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+dotenv.config();
+
+await mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PWDDB}@bootcamp.c4xzu.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,

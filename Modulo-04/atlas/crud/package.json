@@ -7,11 +7,12 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.11.13"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "eslint": "6.8.0",
@@ -19,6 +20,7 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   }
 }
