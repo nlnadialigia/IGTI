@@ -164,9 +164,9 @@ Configuração importante do Heroku para que ele utilize a mesma versão do *Nod
 - o GET de transaction deve considerar obrigatoriamente o período (ano-mês) com base no campo yearMonth. Ou seja,
 o período deve ser obrigatoriamente informado nesse tipo de rota. Isso deve ser implementado no arquivo `routes.js`.
 
-<p align="center"><img src="./assets/img15.png" width="500">Requisição <strong>incorreta</strong>, pois não foi informado o parâmetro <strong>period</strong>.</p><br>
+<p align="center"><img src="./assets/img15.png" width="500"><br>Requisição <strong>incorreta</strong>, pois não foi informado o parâmetro <strong>period</strong>.</p><br>
 
-<p align="center"><img src="./assets/img16.png" width="500">Requisição <strong>correta</strong>, pois foi informado o parâmetro <strong>period</strong>.</p><br>
+<p align="center"><img src="./assets/img16.png" width="500"><br>Requisição <strong>correta</strong>, pois foi informado o parâmetro <strong>period</strong>.</p><br>
 
 ### 📌 Fazer as implementações pendentes em `routes.js` e `transactionService.js` 
 - Testar as rotas com o *Insomnia* e verificar se todo o
@@ -179,13 +179,13 @@ o período deve ser obrigatoriamente informado nesse tipo de rota. Isso deve ser
 ## 📂 Etapa 3 – Implementação do Front End com React:
 <br>
 
-#### 📌 O Front End deve ser implementado a partir da pasta "client". 
+##### 📌 O Front End deve ser implementado a partir da pasta "client". 
 <br>
 
-#### 📌 Telas de definição livre. As telas a seguir são somente uma sugestão de interface.
+##### 📌 Telas de definição livre. As telas a seguir são somente uma sugestão de interface.
 <br>
 
-#### 📌 Acessar a pasta `client` e digite `yarn` para instalar as dependências do projeto que são, além dos pacotes relacionados ao `create-react-app`:
+##### 📌 Acessar a pasta `client` e digite `yarn` para instalar as dependências do projeto que são, além dos pacotes relacionados ao `create-react-app`:
 
 - Pacote materialize-css.<br>
 - Pacote axios.<br>
@@ -222,11 +222,11 @@ o período deve ser obrigatoriamente informado nesse tipo de rota. Isso deve ser
 
 <br>
 
-### 📌 A exclusão de lançamentos pode ser implementada através do simples clique no ícone que representa a "Lixeira", conforme imagem acima.
+#### 📌 A exclusão de lançamentos pode ser implementada através do simples clique no ícone que representa a "Lixeira", conforme imagem acima.
 
 <br>
 
-### 📌 Utilizar a tag `<select>` nos períodos, que no React tem o funcionamento um pouco diferente do HTML padrão. 
+#### 📌 Utilizar a tag `<select>` nos períodos, que no React tem o funcionamento um pouco diferente do HTML padrão. 
 
 - Mais detalhes podem ser vistos [aqui](https://reactjs.org/docs/forms.html#the-select-tag). 
 
@@ -289,10 +289,10 @@ A API pode ser acesada em: `http://nome-do-projeto.herokuapp.com/api/.`
 
 <br>
 
-#### 📌 Caso ocorra algum erro, verifique os passos anteriores. Caso persista o erro, volte ao terminal e digite `heroku logs --tail`. 
+##### 📌 Caso ocorra algum erro, verifique os passos anteriores. Caso persista o erro, volte ao terminal e digite `heroku logs --tail`. 
 <br>
 
-#### 📌 Caso efetuem alguma modificação no código-fonte, façam tanto o `push` no Github quanto o `push` no *Heroku*. Para o `push` no *Heroku* digite, após o commit, `git push heroku master`.
+##### 📌 Caso efetuem alguma modificação no código-fonte, façam tanto o `push` no Github quanto o `push` no *Heroku*. Para o `push` no *Heroku* digite, após o commit, `git push heroku master`.
 <br>
 
 ## Licença 
