@@ -122,15 +122,15 @@ e alguns registros com a descrição “Receita xyz...” foram criados como des
 
 ### 📌 Verificar, estudar e entender mais alguns detalhes importantes sobre o arquivo `index.js`:
 
-<p align="center"><img src="./assets/img08.png" width="400"></p><br>
+<p align="center"><img src="./assets/img08.png" heigth="400"></p><br>
 
 Este trecho de código faz com que o express hospede o React de produção (após o build).
 
-<p align="center"><img src="./assets/img09.png" width="400"></p><br>
+<p align="center"><img src="./assets/img09.png" width="500"></p><br>
 
 Este trecho de código faz com que a API principal do Back End (transaction) fique hospedada em `http://"meu_site_no_heroku".herokuapp.com/api/transaction`
 
-<p align="center"><img src="./assets/img10.png" width="400"></p><br>
+<p align="center"><img src="./assets/img10.png" width="500"></p><br>
 
 Neste trecho de código perceba que foi priorizado o valor de `process.env.PORT` para ser utilizado como porta do servidor de Back End. Isso será utilizado pelo Heroku
 em produção. Em desenvolvimento, será adotada a porta `3001`, pois não há a variável `PORT` no arquivo `.env` local.
@@ -139,17 +139,17 @@ em produção. Em desenvolvimento, será adotada a porta `3001`, pois não há a
 
 ### 📌 Verificar, estudar e entender alguns detalhes importantes sobre o arquivo `package.json`:
 
-<p align="center"><img src="./assets/img11.png" width="400"></p><br>
+<p align="center"><img src="./assets/img11.png" width="500"></p><br>
 
 Para executar o servidor local, digite `yarn server`, que irá utilizar o *Nodemon* para tal.<br>
 O script `heroku-postbuild` será utilizado pelo *Heroku CLI* para realizar o build da aplicação *React*. 
 
-<p align="center"><img src="./assets/img12.png" height="80"></p><br>
+<p align="center"><img src="./assets/img12.png" height="100"></p><br>
 
 Configuração importante do *Nodemon* para que ele não "escute" a pasta do *React*, pois ela já tem um servidor próprio de desenvolvimento. Sem isso, qualquer alteração no
 projeto *React* acarreta no reinício do servidor de Back End durante o desenvolvimento, o que não é desejável.
 
-<p align="center"><img src="./assets/img13.png" height="60"></p><br>
+<p align="center"><img src="./assets/img13.png" height="100"></p><br>
 
 Configuração importante do Heroku para que ele utilize a mesma versão do *Node.js* de desenvolvimento em produção. Se a sua versão do *Node.js* for diferente de 12.9.1, faça a devida alteração nesse objeto de `package.json` e informe a versão que você está utilizando. Recomenda-se, entretanto, utilizar a versão 12.9.1.
 
