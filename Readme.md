@@ -34,6 +34,7 @@ Repositório dedicado os exercícios e desafios realizados nas aulas do Bootcamp
 - [Modulo 02 - Desenvolvimento de APIs](./Modulo-02)
 - [Modulo 03 - React](./Modulo-03)
 - [Modulo 04 - Persistência de Dados, Versionamento e Implantação](./Modulo-04)
+- [Modulo 05 - Desafio Final Bootcamp](./Modulo-05)
 
 <br>
 
