@@ -122,6 +122,7 @@ e alguns registros com a descrição “Receita xyz...” foram criados como des
 
 ### 📌 Verificar, estudar e entender mais alguns detalhes importantes sobre o arquivo `index.js`:
 
+<<<<<<< HEAD
 <p align="center"><img src="./assets/img08.png" width="200"></p><br>
 
 Este trecho de código faz com que o express hospede o React de produção (após o build).
@@ -131,6 +132,17 @@ Este trecho de código faz com que o express hospede o React de produção (apó
 Este trecho de código faz com que a API principal do Back End (transaction) fique hospedada em `http://"meu_site_no_heroku".herokuapp.com/api/transaction`
 
 <p align="center"><img src="./assets/img10.png" width="200"></p><br>
+=======
+<p align="center"><img src="./assets/img08.png"></p><br>
+
+Este trecho de código faz com que o express hospede o React de produção (após o build).
+
+<p align="center"><img src="./assets/img09.png"></p><br>
+
+Este trecho de código faz com que a API principal do Back End (transaction) fique hospedada em `http://"meu_site_no_heroku".herokuapp.com/api/transaction`
+
+<p align="center"><img src="./assets/img10.png"></p><br>
+>>>>>>> d73fc4b0624539d82c3d70e4c7c41356da316b92
 
 Neste trecho de código perceba que foi priorizado o valor de `process.env.PORT` para ser utilizado como porta do servidor de Back End. Isso será utilizado pelo Heroku
 em produção. Em desenvolvimento, será adotada a porta `3001`, pois não há a variável `PORT` no arquivo `.env` local.
@@ -139,7 +151,11 @@ em produção. Em desenvolvimento, será adotada a porta `3001`, pois não há a
 
 ### 📌 Verificar, estudar e entender alguns detalhes importantes sobre o arquivo `package.json`:
 
+<<<<<<< HEAD
 <p align="center"><img src="./assets/img11.png" width="200"></p><br>
+=======
+<p align="center"><img src="./assets/img11.png"></p><br>
+>>>>>>> d73fc4b0624539d82c3d70e4c7c41356da316b92
 
 Para executar o servidor local, digite `yarn server`, que irá utilizar o *Nodemon* para tal.<br>
 O script `heroku-postbuild` será utilizado pelo *Heroku CLI* para realizar o build da aplicação *React*. 
