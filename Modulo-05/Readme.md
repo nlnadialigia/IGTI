@@ -122,7 +122,7 @@ e alguns registros com a descrição “Receita xyz...” foram criados como des
 
 ### 📌 Verificar, estudar e entender mais alguns detalhes importantes sobre o arquivo `index.js`:
 
-<p align="center"><img src="./assets/img08.png" heigth="400"></p><br>
+<p align="center"><img src="./assets/img08.png" heigth="300"></p><br>
 
 Este trecho de código faz com que o express hospede o React de produção (após o build).
 
@@ -139,7 +139,7 @@ em produção. Em desenvolvimento, será adotada a porta `3001`, pois não há a
 
 ### 📌 Verificar, estudar e entender alguns detalhes importantes sobre o arquivo `package.json`:
 
-<p align="center"><img src="./assets/img11.png" width="500"></p><br>
+<p align="center"><img src="./assets/img11.png" width="600"></p><br>
 
 Para executar o servidor local, digite `yarn server`, que irá utilizar o *Nodemon* para tal.<br>
 O script `heroku-postbuild` será utilizado pelo *Heroku CLI* para realizar o build da aplicação *React*. 
